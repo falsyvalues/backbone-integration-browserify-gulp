@@ -22,6 +22,7 @@ var paths = {
   dest: 'dist',
   scripts: 'app/**/*.js',
   styles: 'app/**/*.scss',
+  templates: 'app/**/*.jst',
   tmp: '.tmp'
 };
 
@@ -36,6 +37,7 @@ gulp.task('copy', function() {
   return gulp.src([
     paths.app,
     '!' + paths.styles,
+    '!' + paths.templates,
     '!' + paths.scripts
   ], {
     dot: true,
