@@ -22,7 +22,7 @@
     "gulp-sass": "^3.2.1",
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
     "jstify": "^0.14.0",
     "run-sequence": "^2.2.1",
